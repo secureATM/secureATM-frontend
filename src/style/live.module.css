@@ -1,0 +1,84 @@
+.start_btn{
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footer_location{
+    position: relative;
+    top: 600px;
+}
+
+.detection_container{
+    position: absolute;
+    left: 75%;
+    top:22%;
+    max-width: 500px;
+    min-height: 300px;
+    padding: 20px;
+    /*border-radius: 5px;*/
+    /*background-color: #25DBF4;*/
+}
+.detection_text{
+    /*font-weight: bold;*/
+    color: #000000;
+    font-size: 20px;
+    padding: 5px;
+    text-align: left;
+}
+.facial_expression_text{
+    color: #21e304;
+    font-size: 20px;
+
+}
+.user_details_container{
+    position: absolute;
+    right: 75%;
+    top:20%;
+    padding: 20px;
+    max-width: 600px;
+    min-height: 300px;
+    background-color: #f3f8ff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.user_details_list{
+    list-style: none;
+}
+.user_details_text{
+
+    text-align: left;
+    padding: 5px;
+    /*font-weight: bold;*/
+    color: #000000;
+    font-size: 20px;
+}
+.webcam_location{
+    position: absolute;
+    right: 32%;
+    top:20%;
+}
+.account_num_text{
+    padding-right: 20px;
+    color: #000000;
+    font-size: 20px;
+}
+.account_num_submit_btn{
+    /*background-color: #0F2851;*/
+    /*border: none;*/
+    margin-left: 20px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000000;
+    font-size: 20px;
+    /*border-radius: 40px;*/
+
+}
+.atm_user_dp{
+    background-color: #c7c4c4;
+}

@@ -1,0 +1,11 @@
+.twitterLogo{
+    position: relative;
+    top:20px;
+    color:#FFFFFF;
+    font-size:50px;
+    transition: color 1000ms;
+}
+
+.twitterLogo:hover{
+    color: #232222;
+}

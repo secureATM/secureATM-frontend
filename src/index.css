@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    margin-top: 80px;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.heading{
+    background-color: #05445E;
+    color: #fff;
+    padding-left: 30px;
+    padding: 6px;
+    font-size: 25px;
+}
+
+.welcometxt{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.historyHeading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.miniLogo{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.historySection{
+    margin-top: 50px;
+}
+
+.date{
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.headings{
+    display: flex;
+    margin-left: 600px;
+}
+
+.subheading{
+    margin: 10px;
+    margin-right: 15px;
+}
+
+.record{
+    display: flex;
+    margin-top: 30px;
+}
+
+.time{
+    margin-left: 30px;
+
+}
+
+.link{
+    margin-left: 250px;
+}
+
+.statusbox{
+    display: flex;
+    margin-left: 260px;
+}
+
+
+.status{
+    margin-right: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
