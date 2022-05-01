@@ -30,7 +30,7 @@ const Content=( {people ,remove})=>{
                                 <td>{detect_1}</td>
                                 <td>{detect_2}</td>
                                 <td>{detect_3}</td>
-                                <td>{(detect_1 === "Unknown")?"Suspicious": detect_1}</td>
+                                <td>{(detect_1 === "Unknown" || detect_2 === "weapon detect" || (detect_3 === "Fearful" || detect_3 === "Suprised" ))?"Suspicious": "Secure"}</td>
                             </tr>
 
                         </table>

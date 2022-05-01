@@ -1,12 +1,8 @@
 .middle_content{
     position: relative;
     top: 100px;
-    /*left: 20%;*/
-    /*right: 20%;*/
-    /*margin-bottom: 10px;*/
     background-color: #f3f8ff;
-    /*width: 1000px;*/
-    height: 120px;
+    height: 180px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
     padding:20px 20px 20px 20px ;
@@ -26,7 +22,7 @@
 }
 
 .middle_content table,th,td{
-    margin-left: 110px;
+    margin-left: 30px;
     padding: 5px;
     border: black solid;
     text-align: center;
@@ -47,8 +43,6 @@
     font-size: 20px;
     border-radius: 15%;
     border: none;
-    /*box-shadow:0 0 10px #ffffff,0 0 40px #ffffff,0 0 80px #ffffff,0 0 150px #fffcfc;*/
-    /*border:solid #211d24;*/
     transition:  500ms;
     font-family: monospace;
     font-weight: bold;

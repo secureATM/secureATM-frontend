@@ -5,7 +5,7 @@ import Webcam from "react-webcam";
 import App from "../App";
 import Styles from '../style/live.module.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCheck, faClose, faEllipsis} from "@fortawesome/free-solid-svg-icons";
+import {faCheck, faClose, faEllipsis, faShield} from "@fortawesome/free-solid-svg-icons";
 
 
 const Live = () => {
@@ -125,7 +125,7 @@ const Live = () => {
         if(detection_1 === "Unknown"){
             return faClose
         }else if (detection_1 === name) {
-            return faCheck
+            return faShield
         }else  {
             return faEllipsis
         }
@@ -133,9 +133,9 @@ const Live = () => {
 
     const gunDetect = ()=>{
         if(detection_2 === "weapon detect"){
-            return faCheck
-        }else if (detection_2 === "not detect") {
             return faClose
+        }else if (detection_2 === "not detect") {
+            return faShield
         }else {
             return faEllipsis
         }
@@ -153,9 +153,9 @@ const Live = () => {
     }
     const gunDetectTickColor = ()=>{
         if(detection_2 === "weapon detect"){
-            return rightTick
-        }else if (detection_2 === "not detect")  {
             return closeTick
+        }else if (detection_2 === "not detect")  {
+            return rightTick
         }else {
             return defaultColor
         }
@@ -173,9 +173,9 @@ const Live = () => {
 
 
           <ul className={Styles.user_details_list}>
-              <li className={Styles.detection_text}>Facial recognition  <FontAwesomeIcon style={facialRecognitionTickColor()} icon={facialRecognition()} /></li>
               <li className={Styles.detection_text}>Weapon detection  <FontAwesomeIcon style={gunDetectTickColor()} icon={gunDetect()} /></li>
               <li className={Styles.detection_text}>Facial expression <span className={Styles.facial_expression_text}>{detection_3}</span></li>
+              <li className={Styles.detection_text}>Facial recognition  <FontAwesomeIcon style={facialRecognitionTickColor()} icon={facialRecognition()} /></li>
 
           </ul>
       </div>
@@ -183,7 +183,7 @@ const Live = () => {
        <div className={Styles.webcam_location}>
 
            {/*<img src={`http://127.0.0.1:8000/live?${Date.now()}`} width="550px" height="450px"/>*/}
-           <img src={'http://127.0.0.1:8000/live'} width="550px" height="450px"/>
+           <img src={'http://127.0.0.1:8000/live'} width="550px" height="400px"/>
            {/*<img src={'http://127.0.0.1:8000/ '} width="550px" height="450px"/>*/}
 
            <form onSubmit={e=>{submit(e)}}>
